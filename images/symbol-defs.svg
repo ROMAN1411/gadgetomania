@@ -1,0 +1,64 @@
+<svg
+  aria-hidden="true"
+  style="position: absolute; width: 0; height: 0; overflow: hidden;"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+<defs>
+<symbol id="icon-basket" viewBox="0 0 34 32">
+<path
+        d="M10.286 25.398c-1.886 0-3.411 1.429-3.411 3.175s1.526 3.175 3.411 3.175 3.429-1.429 3.429-3.175-1.543-3.175-3.429-3.175zM0 0.002v3.175h3.429l6.171 12.047-2.314 3.889c-0.274 0.446-0.429 0.968-0.429 1.525 0 1.745 1.543 3.174 3.429 3.174h20.571v-3.174h-19.851c-0.24 0-0.429-0.175-0.429-0.398l0.051-0.19 1.543-2.587h12.771c1.286 0 2.417-0.651 3-1.634l6.137-10.303c0.137-0.222 0.206-0.491 0.206-0.761 0-0.873-0.771-1.589-1.714-1.589h-25.354l-1.611-3.174h-5.606zM27.429 25.398c-1.886 0-3.411 1.429-3.411 3.175s1.526 3.175 3.411 3.175 3.429-1.429 3.429-3.175-1.543-3.175-3.429-3.175z"
+      />
+</symbol>
+<symbol id="icon-slider-left" viewBox="0 0 32 32">
+<path
+        fill="none"
+        stroke="#fbac35"
+        style="stroke: var(--color1, #fbac35)"
+        stroke-linejoin="miter"
+        stroke-linecap="butt"
+        stroke-miterlimit="4"
+        stroke-width="1.28"
+        d="M31.36 16c0 8.483-6.877 15.36-15.36 15.36s-15.36-6.877-15.36-15.36c0-8.483 6.877-15.36 15.36-15.36s15.36 6.877 15.36 15.36z"
+      />
+<path
+        fill="none"
+        stroke="#fbac35"
+        style="stroke: var(--color1, #fbac35)"
+        stroke-linejoin="miter"
+        stroke-linecap="butt"
+        stroke-miterlimit="4"
+        stroke-width="1.28"
+        d="M18.56 10.88l-5.76 5.12 5.76 5.44"
+      />
+</symbol>
+<symbol id="icon-slider-right" viewBox="0 0 32 32">
+<path
+        fill="none"
+        stroke="#fbac35"
+        style="stroke: var(--color1, #fbac35)"
+        stroke-linejoin="miter"
+        stroke-linecap="butt"
+        stroke-miterlimit="4"
+        stroke-width="1.28"
+        d="M31.36 16c0 8.483-6.877 15.36-15.36 15.36s-15.36-6.877-15.36-15.36c0-8.483 6.877-15.36 15.36-15.36s15.36 6.877 15.36 15.36z"
+      />
+<path
+        fill="none"
+        stroke="#fbac35"
+        style="stroke: var(--color1, #fbac35)"
+        stroke-linejoin="miter"
+        stroke-linecap="butt"
+        stroke-miterlimit="4"
+        stroke-width="1.28"
+        d="M14.080 10.88l5.76 5.12-5.76 5.44"
+      />
+</symbol>
+<symbol id="icon-wish-list" viewBox="0 0 34 32">
+<path
+        d="M24.857 0.002c-2.983 0-5.846 1.401-7.714 3.616-1.869-2.215-4.731-3.616-7.714-3.616-5.28 0-9.429 4.186-9.429 9.515 0 6.539 5.829 11.867 14.657 19.965l2.486 2.266 2.486-2.283c8.829-8.080 14.657-13.408 14.657-19.947 0-5.329-4.149-9.515-9.429-9.515zM17.314 26.904l-0.171 0.171-0.171-0.171c-8.16-7.458-13.543-12.389-13.543-17.389 0-3.461 2.571-6.055 6-6.055 2.64 0 5.211 1.712 6.12 4.082h3.206c0.891-2.37 3.463-4.082 6.103-4.082 3.429 0 6 2.594 6 6.055 0 5-5.383 9.93-13.543 17.386z"
+      />
+</symbol>
+</defs>
+</svg>

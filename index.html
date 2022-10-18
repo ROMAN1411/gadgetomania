@@ -44,12 +44,17 @@
             <ul class="header-actions">
                 <li class="header-actions-btn">
                     <button class="actions-btn">
-                        <img src="./images/wish-list.svg" alt="">
+                        <svg class="wish-list-icon">
+                            <use href="./images/symbol-defs.svg#icon-wish-list"></use>
+                        </svg>
                     </button>
                 </li>
                 <li class="header-actions-btn">
                     <button class="actions-btn">
-                        <img src="./images/basket.svg" alt="">
+                        <svg class="basket-icon">
+                            <use href="./images/symbol-defs.svg#icon-basket"></use>
+                        </svg>
+                        <span class="counter">1</span>
                     </button>
                 </li>
             </ul>
@@ -61,22 +66,54 @@
         <!-- HERO -->
 
         <section class="hero">
+
                 <div class="container hero-container">
-                    <!-- <img class="hero-header-bg" src="./images/hero-header-bg.png" alt=""> -->
                     <h1 class="hero-title">Найпопулярніша техніка за вигідними цінами!</h1>
 
-                    <!-- <div class="hero-advertising">
+                    <div class="hero-advertising">
                         <button type="button" class="advertising-btn">
-                            <img src="./images/advertising-btn.svg" alt="">
+                            <svg class="slider-icon">
+                                <use href="./images/symbol-defs.svg#icon-slider-left"></use>
+                            </svg>
                         </button>
-                    </div> -->
+                        <ul class="advertising-list">
+                            <h2 class="visually-hidden">Рекламний список</h2>
+                            <li class="advertising-card">
+                                <svg class="wish-icon">
+                                    <use href="./images/symbol-defs.svg#icon-wish-list"></use>
+                                </svg>
+                                <img class="advertising-watch" src="./images/advertising-watch.png" alt="">
+                            </li>
+                            <li class="advertising-card">
+                                <svg class="wish-icon">
+                                    <use href="./images/symbol-defs.svg#icon-wish-list"></use>
+                                </svg>
+                                <img class="advertising-watch" src="./images/advertising-watch.png" alt="">
+                            </li>
+                        </ul>
+                        <button type="button" class="advertising-btn">
+                            <svg class="slider-icon">
+                                <use href="./images/symbol-defs.svg#icon-slider-right"></use>
+                            </svg>
+                        </button>
+                    </div>
+
+
+
+
+
                     
 
-                <div class="hero-offer">
-                    <img class="hero-offer-img" src="./images/hero-offer-img.png" alt="">
-                    <p class="hero-offer-text">Навушники Bluetooth XO G9 TWS</p>
+                    <div class="hero-offer">
+                        <img class="hero-offer-img" src="./images/hero-offer-img.png" alt="">
+                        <p class="hero-offer-text">Навушники Bluetooth XO G9 TWS</p>
 
-                </div>
+                        <div class="hero-offer-price">
+                            <p class="offer-price-text">943 ₴</p>
+                        </div>
+                        <a class="offer-btn" href="">До каталогу</a>
+
+                    </div>
 
 
                 </div>
