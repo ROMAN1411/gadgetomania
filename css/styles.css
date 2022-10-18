@@ -69,9 +69,23 @@ a {
     color: var(--header-color);
 }
 
+.basket-btn {
+    font-size: 25px;
+    line-height: calc(37 / 25);
+    color: var(--black-text-color);
+    width: 100%;
+    border: none;
+    background: #FBAC35;
+    border-radius: 30px;
+    margin-top: auto;
+}
+
 /* -- HEADER -- */
 .header {
-    /* position: absolute; */
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    align-items: center;
 }
 
 .header-logo {
@@ -119,31 +133,101 @@ a {
 
 /* -- HERO -- */
 
+.hero {
+    background-color: #c4c4c4;
+    background-image: url(../images/hero-header-bg.png), url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 850px, cover;
+    background-position: top 150px left 100px, center;
+    margin: 0 auto;
+    max-width: 1920px;
+    max-height: 1080px;
+}
+
+.hero-container {
+    padding-top: 360px;
+    padding-bottom: 570px;
+    /* background-image: url(../images/hero-header-bg.png);
+    background-repeat: no-repeat;
+    background-position: -50px 170px; */
+
+    position: relative;
+}
+
+.hero-header-bg {
+    position:absolute;
+    left: 50px;
+}
+
 .hero-title {
+    /* position: absolute; */
+    /* z-index: 5; */
     font-size: 50px;
     line-height: calc(74 / 50);
     letter-spacing: 0.05em;
     color: var(--black-text-color);
     width: 686px;
-    /* background-image: url(../images/hero-header-bg.png); */
+
+    
 }
 
-.hero {
-    padding-top: 385px;
-    padding-bottom: 570px;
-
-    background-color: #c4c4c4;
-    background-image: url(../images/hero-bg.jpg);
-    background-repeat: no-repeat;
-
-    background-size: cover;
-    background-position: center;
-    max-width: 1920px;
-    margin: 0 auto;
-
+/* .hero-container {
     position: relative;
+} */
+
+/* .hero-header-bg {
+    position: absolute; 
+    top: 155px;
+    left: ;
+    z-index: 0;
+    width: 100%;
+    align-items: center;
+    } */
+
+
+
+/* .hero-advertising{
+    width: 640px;
+    height: 327px;
+}
+
+.advertising-btn {
+    display: block;
+} */
+
+
+.hero-offer {
+    /* outline: 1px solid green; */
+
+
+    position:absolute;
+
+    top: 185px;
+    right: 0;
+    width: 667px;
+    height: 750px;
+    background-image: url(../images/hero-offer-bg.png);
+    background-repeat: no-repeat;
+    background-position: 57px 0;
 
 }
+
+.hero-offer-img {
+    margin-bottom: 7px;
+}
+
+.hero-offer-text {
+    font-size: 25px;
+    line-height: calc(37/25);
+    color: var(--black-text-color);
+    width: 271px;
+    margin-left: 278px;
+}
+
+
+
+
+
 
 /* -- ABOUT -- */
 
@@ -209,7 +293,7 @@ a {
     color: #4A4141;
 }
 
-/* -- SALES -- */
+/* -- HITS -- */
 
 .sales-hits-title {
     margin-bottom: 100px;
@@ -260,16 +344,7 @@ a {
     /* margin-bottom: 47px; */
 }
 
-.basket-btn {
-    font-size: 25px;
-    line-height: calc(37 / 25);
-    color: var(--black-text-color);
-    width: 100%;
-    border: none;
-    background: #FBAC35;
-    border-radius: 30px;
-    margin-top: auto;
-}
+
 
 .sales-list {
     display: flex;
@@ -277,6 +352,417 @@ a {
     margin-left: -66px;
 }
 
+/*-- CATEGORIES --*/
+
+.categories-container{
+    padding-top: 170px;
+    padding-bottom: 300px;
+}
+
+.categories-header {
+    margin-bottom: 165px;
+}
+
+.categories-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -25px;
+    margin-top: -36px;
+}
+
+.categories-card {
+    width: 788px;
+    height: 484px;
+
+    background: rgba(251, 172, 53, 0.47)  url(../images/categories-watch-bg.png);
+    background-position: right 17px;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+
+    flex-basis: calc(100%/2 - 25px);
+        margin-left: 25px;
+        margin-top: 36px;
+
+    position: relative;
+}
+
+.categories-title {
+
+    font-size: 50px;
+    line-height: calc(74/50);
+    color: var(--main-text-color);
+    padding-top: 396px;
+    padding-left: 21px;
+}
+
+.categories-watch-01 {
+    position: absolute;
+    left: 200px;
+    top: 85px;
+}
+
+.categories-watch-02 {
+    position: absolute;
+    left: 371px;
+    top: 47px;
+}
+
+.categories-earphones-01 {
+    position: absolute;
+    left: 197px;
+    top: 92px;
+}
+
+.categories-earphones-02 {
+    position: absolute;
+    left: 272px;
+    /* top: 0; */
+}
+
+.categories-power-bank-01 {
+    position: absolute;
+    left: 225px;
+    top: 83px;
+}
+
+.categories-power-bank-02 {
+    position: absolute;
+    left: 434px;
+    top: 56px;
+}
+
+.categories-portable-speaker-01 {
+    position: absolute;
+    left: 176px;
+    top: 17px;
+}
+
+.categories-portable-speaker-02 {
+    position: absolute;
+    left: 313px;
+    top: 60px;
+}
+
+/* -- ACTION -- */
+
+.action { 
+    background-color: var(--accent-bg);
+}
+
+.action-container  {
+    position: relative;
+}
+
+.action-subtitle {
+    font-size: 35px;
+    line-height: calc(52/35);
+    color: var(--main-text-color);
+
+    width: 520px;
+
+    padding-top: 155px;
+    padding-bottom: 155px;
+    margin-left: -23px;
+}
+.action-subtitle-price {
+    font-size: 35px;
+    line-height: calc(52/35);
+    text-decoration-line: line-through;
+    color: var(--black-text-color);
+    position: absolute;
+    bottom: 128px;
+    left: 395px;
+}
+
+.discount {
+    position: absolute;
+    top: 0;
+    left: -44px;
+    background: url(../images/action-discount-bg.png);
+    background-repeat: no-repeat;
+    width: 308px;
+    height: 280px;
+    transform: translate(0, -50%);
+}
+
+.discount-text {
+    font-size: 50px;
+    line-height: calc(74/50);
+    color: var(--white-text-color);
+    text-align: center;
+    transform: rotate(-12.34deg);
+    padding-top: 50px;
+}
+
+.action-portable-speaker {
+    position: absolute;
+    top: -106px;
+    left: 444px;
+}
+
+.action-price {
+    position: absolute;
+    bottom: 6px;
+    left: 363px;
+    background: url(../images/action-price-bg.png);
+    background-repeat: no-repeat;
+    width: 162px;
+    height: 129px;
+}
+
+.price-text {
+    font-size: 50px;
+    line-height: calc(74/50);
+    color: var(--white-text-color);
+    padding-top: 28px;
+    padding-left: 15px;
+}
+
+/* -- EARPHONES -- */
+
+.earphones-container {
+    padding-top: 133px;
+}
+
+.earphones-title {
+    margin-bottom: 127px;
+}
+
+.earphones-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -93px;
+}
+
+.earphones-card {
+    width: 330px;
+    height: 527px;
+    margin-left: 93px;
+    display: flex;
+    flex-direction: column;
+}
+
+.earphones-bg {
+    width: 329px;
+    height: 335px;
+    background: #FFF4F0;
+    border-radius: 40px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.earphones-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.earphones-wish-icon {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}
+
+.earphones-subtitle {
+    font-size: 20px;
+    line-height: calc(30/20);
+    color: var(--main-text-color);
+    margin-bottom: 22px;
+}
+
+.earphones-price {
+    font-size: 15px;
+    line-height: calc(22 / 15);
+    color: var(--prises-color);
+    /* margin-bottom: 47px; */
+}
+
+
+/* -- SMART WATCH -- */
+
+.smart-watch-container {
+    padding-top: 127px;
+}
+
+.smart-watch-title {
+    margin-bottom: 127px;
+}
+
+.smart-watch-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -80px;
+}
+
+.smart-watch-card {
+    width: 340px;
+    height: 503px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.smart-watch-bg {
+    width: 340px;
+    height: 335px;
+    background: #FFF4F0;
+    border-radius: 40px;
+    position: relative;
+    margin-bottom: 21px;
+}
+
+.smart-watch-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.smart-watch-wish-icon {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}
+
+.smart-watch-subtitle {
+    font-size: 20px;
+    line-height: calc(30/20);
+    color: var(--main-text-color);
+    margin-bottom: 17px;
+}
+
+.smart-watch-price {
+    font-size: 15px;
+    line-height: calc(22 / 15);
+    color: var(--prises-color);
+}
+
+/* -- POWER BANKS -- */
+
+.power-bank-container {
+    padding-top: 127px;
+}
+
+.power-bank-title {
+    margin-bottom: 127px;
+}
+
+.power-bank-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -76px;
+}
+
+.power-bank-card {
+    width: 343px;
+    height: 575px;
+    margin-left: 76px;
+    display: flex;
+    flex-direction: column;
+}
+
+.power-bank-bg {
+    width: 343px;
+    height: 335px;
+    background: #FFF4F0;
+    border-radius: 40px;
+    position: relative;
+    margin-bottom: 37px;
+}
+
+.power-bank-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.power-bank-wish-icon {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}
+
+.power-bank-subtitle {
+    font-size: 20px;
+    line-height: calc(30/20);
+    color: var(--main-text-color);
+    margin-bottom: 10px;
+}
+
+.power-bank-volume {
+    font-size: 18px;
+    line-height: calc(27/18);
+    color: var(--main-text-color);
+    margin-bottom: 10px;
+}
+
+.power-bank-price {
+    font-size: 15px;
+    line-height: calc(22 / 15);
+    color: var(--prises-color);
+}
+
+/* -- PORTABLE SPEAKERS -- */
+
+.portable-speaker-container {
+    padding-top: 127px;
+    padding-bottom: 196px;
+}
+
+.portable-speaker-title {
+    margin-bottom: 127px;
+}
+
+.portable-speaker-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -75px;
+}
+
+.portable-speaker-card {
+    width: 343px;
+    height: 534px;
+    margin-left: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.portable-speaker-bg {
+    /* width: 344px; */
+    height: 335px;
+    background: #FFF4F0;
+    border-radius: 40px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.portable-speaker-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.portable-speaker-wish-icon {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+}
+
+.portable-speaker-subtitle {
+    font-size: 20px;
+    line-height: calc(30/20);
+    color: var(--main-text-color);
+    margin-bottom: 25px;
+}
+
+.portable-speaker-price {
+    font-size: 15px;
+    line-height: calc(22 / 15);
+    color: var(--prises-color);
+}
 
 
 
